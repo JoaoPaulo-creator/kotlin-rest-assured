@@ -15,7 +15,7 @@ jobs:
           java-version: '1.8.0'
 
       - name: Build with gradle
-        run: ./gradlew build -distribution=zip
+        run: ./gradlew build
       
       - name: Grant execute permission to gradle wrapper
         run: chmod +x ./gradlew 
