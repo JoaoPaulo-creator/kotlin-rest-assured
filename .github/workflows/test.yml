@@ -15,7 +15,7 @@ jobs:
           java-version: '1.8.0'
 
       - name: Build with gradle
-        run: ./gradlew build -Pdistribution=zip
+        run: ./gradlew build -distribution=zip
 
       - name: Run tests with gradle
         run: ./gradlew test
